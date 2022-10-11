@@ -1,10 +1,10 @@
 @charset "utf-8";
 
-.container {
+.container { /* 그리드시스템 */
     position: relative;
     width: 1200px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 10px; /* 그리드시스템 좌측 우측의 마진 */
 }
 
 .wrapper {
@@ -180,6 +180,11 @@ video {
 .slide-info p {
     font-size: 22px;
     padding-top: 30px;
+}
+
+.left-arrow,
+.right-arrow {
+    position: absolute;
 }
 
 .content-copyright {
