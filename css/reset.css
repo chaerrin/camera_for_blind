@@ -4,7 +4,6 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   /* background-color: #101f5a; */
 }
 
 /*new font*/
@@ -45,8 +44,9 @@ strong {
 }
 
 h1 {
-   font-size: 40px;
-   font-family: "MaruBuri-SB";
+   font-size: 36px;
+   font-family: "116watermelon";
+   
 }
 
 hr {
@@ -54,14 +54,12 @@ hr {
 }
 
 h2 {
-   font-size: 36px;
-   font-family: "116watermelon";
+   font-size: 40px;
+   font-family: "MaruBuri-SB";
 }
 
 h3 {
    font-size: 34px;
-   letter-spacing: 12px;
-   /* text-align: center; */
 }
 
 h4 {
