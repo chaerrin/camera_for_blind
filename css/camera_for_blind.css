@@ -182,9 +182,22 @@ video {
     padding-top: 30px;
 }
 
-.left-arrow,
+.left-arrow {
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 147px;
+}
+
 .right-arrow {
     position: absolute;
+    margin-top: -700px;
+    margin-left: 1000px;
+}
+
+.left-arrow img,
+.right-arrow img {
+    width: 35px;
+    height: 60px;
 }
 
 .content-copyright {
